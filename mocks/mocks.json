@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "role": "ADMIN",
+      "name": "Admin BTG",
+      "email": "admin@example.com",
+      "phone": "+573000000000",
+      "password": "Admin123!",
+      "balance": 0,
+      "portfolio": []
+    },
+    {
+      "id": "user-consultor",
+      "role": "CONSULTOR",
+      "name": "Consultor BTG",
+      "email": "consultor@example.com",
+      "phone": "+573110000000",
+      "password": "consultor123*",
+      "balance": 0,
+      "portfolio": []
+    },
+    {
+      "id": "user-jose",
+      "role": "CLIENT",
+      "name": "Juan Cliente",
+      "email": "juan@example.com",
+      "phone": "+573200000000",
+      "password": "cliente123*",
+      "balance": 500000,
+      "portfolio": []
+    },
+    {
+      "id": "user-marcos",
+      "role": "CLIENT",
+      "name": "Marcos san juan",
+      "email": "marcos@example.com",
+      "phone": "+573200000000",
+      "password": "marcos123*",
+      "balance": 500000,
+      "portfolio": []
+    }
+  ],
+  "funds": [
+    {
+      "id": 1,
+      "name": "FPV_BTG_PACTUAL_RECAUDADORA",
+      "min": 75000,
+      "category": "FPV"
+    },
+    {
+      "id": 2,
+      "name": "FPV_BTG_PACTUAL_ECOPETROL",
+      "min": 125000,
+      "category": "FPV"
+    },
+    { "id": 3, "name": "DEUDAPRIVADA", "min": 50000, "category": "FIC" },
+    { "id": 4, "name": "FDO-ACCIONES", "min": 250000, "category": "FIC" },
+    {
+      "id": 5,
+      "name": "FPV_BTG_PACTUAL_DINAMICA",
+      "min": 100000,
+      "category": "FPV"
+    }
+  ],
+  "transactions": []
+}
