@@ -104,23 +104,22 @@ const UsersTable = () => {
     }
   };
 
-const onSubmitEditUser = (data: EditUserInputs) => {
-  if (!editingUser) return;
+  const onSubmitEditUser = (data: EditUserInputs) => {
+    if (!editingUser) return;
 
-  const updatedUser = { ...editingUser, ...data };
-  editUser(updatedUser);
-  
-  const updatedUsers = users.map((u) =>
-    u.id === editingUser.id ? updatedUser : u
-  );
+    const updatedUser = { ...editingUser, ...data };
+    editUser(updatedUser);
 
-  setUsers(updatedUsers);
-  setErrorMessage(null);
-  setSuccessMessage("✅ Usuario actualizado correctamente");
+    const updatedUsers = users.map((u) =>
+      u.id === editingUser.id ? updatedUser : u
+    );
 
-  setTimeout(() => closeModal(), 1000);
-};
+    setUsers(updatedUsers);
+    setErrorMessage(null);
+    setSuccessMessage("✅ Usuario actualizado correctamente");
 
+    setTimeout(() => closeModal(), 1000);
+  };
 
   return (
     <div>

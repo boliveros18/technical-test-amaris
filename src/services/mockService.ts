@@ -1,4 +1,4 @@
-import { v4 as uuidv4 } from "uuid";
+import { generateId } from '../utils';
 import raw from "../../mocks/mocks.json";
 import type {
   DB,
@@ -87,11 +87,11 @@ export function subscribeToFund(
   if (user.balance < amount)
     throw new Error(`Saldo insuficiente para el fondo ${fund.name}`);
 
-  const txId = uuidv4();
+  const txId = generateId();
   user.balance -= amount;
 
   const link: UserPortfolioItem = {
-    id: uuidv4(),
+    id: generateId(),
     fundId: fund.id,
     fundName: fund.name,
     amount,
@@ -134,7 +134,7 @@ export function unsubscribeFromFund(
   const link = user.portfolio.splice(index, 1)[0];
   user.balance += link.amount;
 
-  const txId = uuidv4();
+  const txId = generateId();
   db.transactions.push({
     id: txId,
     userId,

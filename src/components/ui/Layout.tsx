@@ -13,7 +13,7 @@ interface Props {
 }
 
 const allPages = {
-  CONSULTOR: [{  name: "Historial de transacciones", href: "/transaction" }],
+  CONSULTOR: [{ name: "Historial de transacciones", href: "/transaction" }],
   CLIENT: [
     { name: "Fondos", href: "/funds" },
     { name: "Historial de transacciones", href: "/transaction" },

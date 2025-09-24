@@ -52,4 +52,6 @@ export default tseslint.config({
   },
 })
 ```
-Este repositorio no corresponde a código oficial de BTG Pactual, únicamente corresponde a una prueba técnica personal.
+*Correr los tests:    npx jest --config jest.config.js  
+                       
+*Este repositorio no corresponde a código oficial de BTG Pactual, únicamente corresponde a una prueba técnica personal.

@@ -6,7 +6,7 @@
       "name": "Admin BTG",
       "email": "admin@example.com",
       "phone": "+573000000000",
-      "password": "Admin123!",
+      "password": "admin123*",
       "balance": 0,
       "portfolio": []
     },

@@ -13,6 +13,10 @@
     "moduleDetection": "force",
     "noEmit": true,
 
+    /* Interoperabilidad y JSON */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,

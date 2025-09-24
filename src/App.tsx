@@ -6,7 +6,6 @@ import TransactionPage from "./pages/Transactions";
 import { ChangePasswordPage } from "./pages/ChangePassword";
 import DashboardPage from "./pages/Dashboard";
 
-
 function App() {
   return (
     <BrowserRouter>

@@ -53,8 +53,7 @@ export const ChangePasswordPage = () => {
 
   return (
     <Layout>
-     <div className="flex flex-col items-center justify-center px-6 py-12 lg:px-8 border rounded-2xl border-gray-100 max-w-sm mx-auto">
-
+      <div className="flex flex-col items-center justify-center px-6 py-12 lg:px-8 border rounded-2xl border-gray-100 max-w-sm mx-auto">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm text-center">
           <div className="flex justify-center">
             <BuildingLibraryIcon className="h-6 w-6" />
