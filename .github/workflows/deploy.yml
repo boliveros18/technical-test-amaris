@@ -44,8 +44,8 @@ jobs:
 
       - name: Sync build to S3
         run: |
-          aws s3 sync build/ s3://$S3_BUCKET --delete --acl public-read
-          echo "Deployed to s3://$S3_BUCKET"
+            aws s3 sync dist/ s3://$S3_BUCKET --delete --acl public-read
+            echo "Deployed to s3://$S3_BUCKET"
 
       - name: Invalidate CloudFront cache
         run: |
