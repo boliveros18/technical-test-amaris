@@ -10,7 +10,7 @@ import {
 } from "./mockService";
 
 import type { User } from "../interfaces";
-import raw from "../../mocks/mocks.json";
+import raw from "../../public/mocks/mocks.json";
 
 const STORAGE_KEY = "code_mock_db_v1";
 

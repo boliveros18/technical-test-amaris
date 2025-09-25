@@ -1,5 +1,5 @@
 import { generateId } from '../utils';
-import raw from "../../mocks/mocks.json";
+import raw from "../../public/mocks/mocks.json";
 import type {
   DB,
   User,
